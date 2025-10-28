@@ -87,3 +87,57 @@ export const listProyek = [
     dad: "500",
   },
 ];
+
+import certificate1 from "/assets/certificate/aria-certificate-bnsp.jpg";
+import certificate2 from "/assets/certificate/aria-certificate-hr-myskill.jpg";
+import certificate5 from "/assets/certificate/aria-certificate-hr-tempatbelajar.jpg";
+import certificate3 from "/assets/certificate/aria-certificate-pm-myskill.jpg";
+import certificate4 from "/assets/certificate/aria-certificate-pm-revou.jpg";
+
+export const listCertificate = [
+  {
+    id: 1,
+    gambar: certificate1,
+    nama: "Society of Human Resource Management Certifications",
+    ket: "BNSP",
+    thn: "Des 2024",
+    thn_desc: "2 bulan",
+    dad: "300",
+  },
+  {
+    id: 2,
+    gambar: certificate2,
+    nama: "Human Resource",
+    ket: "My Skill",
+    thn: "Des 2023",
+    thn_desc: "1 bulan",
+    dad: "300",
+  },
+  {
+    id: 3,
+    gambar: certificate3,
+    nama: "Product Management",
+    ket: "My Skill",
+    thn: "Nov 2023",
+    thn_desc: "1 bulan",
+    dad: "300",
+  },
+  {
+    id: 4,
+    gambar: certificate4,
+    nama: "Product Management",
+    ket: "Revou",
+    thn: "Nov 2023",
+    thn_desc: "1 bulan",
+    dad: "300",
+  },
+  {
+    id: 5,
+    gambar: certificate5,
+    nama: "Human Resource",
+    ket: "Tempat Belajar",
+    thn: "Nov 2024",
+    thn_desc: "1 bulan",
+    dad: "300",
+  },
+];

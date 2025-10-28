@@ -1,4 +1,4 @@
-import DataImage, { listProyek, listTools } from "./data";
+import DataImage, { listCertificate, listProyek, listTools } from "./data";
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
               href="#"
               className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"
             >
-              Lihat Proyek <i className="ri-arrow-down-line"></i>
+              My Activity <i className="ri-arrow-down-line"></i>
             </a>
           </div>
         </div>
@@ -98,7 +98,7 @@ function App() {
             Experience
           </h1>
           <p
-            className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50"
+            className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose !opacity-50"
             data-aos="fade-up"
             data-aos-duration="2000"
             data-aos-delay="300"
@@ -138,13 +138,30 @@ function App() {
 
       {/* Proyek */}
       <div className="proyek mt-32 py-10">
-        <h1 className="text-center text-4xl font-bold mb-2">My Activity</h1>
-        <p className="text-base/loose text-center opacity-50">
+        <h1
+          className="text-center text-4xl font-bold mb-2"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          My Activity
+        </h1>
+        <p
+          className="text-base/loose text-center !opacity-50"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-delay="300"
+        >
           Berikut ini beberapa activitas yang telah saya lakukan
         </p>
         <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
           {listProyek.map((proyek) => (
-            <div key={proyek.id} className="p-4 bg-zinc-800 rounded-md">
+            <div
+              key={proyek.id}
+              className="p-4 bg-zinc-800 rounded-md"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-delay={proyek.dad}
+            >
               <img src={proyek.gambar} alt="Proyek Image" loading="lazy" />
               <div>
                 <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>
@@ -166,6 +183,57 @@ function App() {
                   >
                     Lihat Website
                   </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Sertifikat */}
+      <div className="proyek mt-32 py-10">
+        <h1
+          className="text-center text-4xl font-bold mb-2"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          Certificate
+        </h1>
+        <p
+          className="text-base/loose text-center !opacity-50"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-delay="300"
+        >
+          Berikut ini beberapa sertifikat yang saya dapatkan
+        </p>
+        <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
+          {listCertificate.map((certificate) => (
+            <div
+              key={certificate.id}
+              className="p-4 bg-zinc-800 rounded-md"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-delay={certificate.dad}
+            >
+              <img
+                src={certificate.gambar}
+                alt="certificate Image"
+                loading="lazy"
+                className="w-full max-h-[200px] object-cover transition-transform duration-300 hover:scale-105"
+              />
+              <div className="flex flex-col mt-2">
+                <div>
+                  <h6 className="text-base/loose text-violet-400">
+                    {certificate.thn}
+                  </h6>
+                  <h4 className="font-bold">{certificate.nama}</h4>
+                </div>
+                <div>
+                  <div className="flex gap-1.5 items-center">
+                    <div className="w-2 h-2 rounded-[50%] bg-violet-400"></div>
+                    <p className="opacity-80">{certificate.ket}</p>
+                  </div>
                 </div>
               </div>
             </div>
