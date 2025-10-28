@@ -41,60 +41,49 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.webp";
-import Proyek2 from "/assets/proyek/proyek2.webp";
-import Proyek3 from "/assets/proyek/proyek3.webp";
-import Proyek4 from "/assets/proyek/proyek4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
-import Proyek6 from "/assets/proyek/proyek6.webp";
+import Proyek1 from "/assets/aria-activity-1.jpeg";
+import Proyek2 from "/assets/aria-activity-2.jpeg";
+import Proyek3 from "/assets/aria-activity-3.jpeg";
+import Proyek4 from "/assets/aria-activity-4.jpeg";
 
 export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "Website Sekolah",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS"],
+    nama: "Youth Connect X Iftar Party",
+    desk: "Kegiatan Youth Connect X Iftar Party, sebagai Staff Visual Media Production Youth Ranger Indonesia (YRI) – Regional Malang di Malang Creative center pada 24 Maret 2024",
+    tools: [
+      "Logistics Management",
+      "Teamwork",
+      "Leadership",
+      "Team Management",
+      "Documentation",
+      "Media Design",
+    ],
     dad: "200",
   },
   {
     id: 2,
     gambar: Proyek2,
-    nama: "Company Profile",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
+    nama: "Dewan Perwakilan Mahasiswa Fakultas Teknik",
+    desk: "Sebagai anggota resmi Divisi Pengembangan Organisasi, saya berkontribusi dalam merancang strategi peningkatan kualitas internal organisasi, seperti pelatihan kepengurusan, evaluasi kinerja divisi, dan penguatan struktur kerja tim.",
+    tools: ["Problem Solving", "Teamwork", "Time Management"],
     dad: "300",
   },
   {
     id: 3,
     gambar: Proyek3,
-    nama: "Web Pernikahan 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
+    nama: "Human Resource Internship",
+    desk: "Sebagai mahasiswa yang memiliki minat dalam bidang manajemen sumber daya manusia, saya mendapatkan kesempatan berharga untuk menjalani program magang di PTPN, salah satu perusahaan BUMN terkemuka di sektor perkebunan Indonesia.",
+    tools: ["Human Resources (HR)"],
     dad: "400",
   },
   {
     id: 4,
     gambar: Proyek4,
-    nama: "Website Course",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
+    nama: "Himpunan Mahasiswa Teknik Industri",
+    desk: "Sebagai bagian dari Divisi Minat dan Bakat, saya berkontribusi dalam merancang dan melaksanakan berbagai kegiatan non-akademik yang mendukung pengembangan bakat dan minat mahasiswa, seperti lomba olahraga, seni, serta pelatihan kreatif. ",
+    tools: ["Problem Solving", "Teamwork", "Time Management"],
     dad: "500",
-  },
-  {
-    id: 5,
-    gambar: Proyek5,
-    nama: "Web Portfolio",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
-    dad: "600",
-  },
-  {
-    id: 6,
-    gambar: Proyek6,
-    nama: "Company Profile 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
-    dad: "700",
   },
 ];

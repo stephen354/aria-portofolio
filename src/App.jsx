@@ -140,7 +140,7 @@ function App() {
       <div className="proyek mt-32 py-10">
         <h1 className="text-center text-4xl font-bold mb-2">My Activity</h1>
         <p className="text-base/loose text-center opacity-50">
-          Berikut ini beberapa proyek yang telah saya buat
+          Berikut ini beberapa activitas yang telah saya lakukan
         </p>
         <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
           {listProyek.map((proyek) => (
@@ -161,7 +161,7 @@ function App() {
                 </div>
                 <div className="mt-8 text-center">
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/aria-putri-zulfa-laili"
                     className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600"
                   >
                     Lihat Website

@@ -14,7 +14,7 @@ const Footer = () => {
         <a href="#">
           <i className="ri-instagram-fill ri-2x"></i>
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/in/aria-putri-zulfa-laili/">
           <i className="ri-linkedin-fill ri-2x"></i>
         </a>
       </div>
